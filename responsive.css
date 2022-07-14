@@ -1,0 +1,307 @@
+@media(max-width:600px) {
+  .right-content a {
+    display: block;
+    width: 178px;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  nav ul {
+    transition: 0.5s;
+    z-index: 1;
+    position: fixed;
+    top: 0vh;
+    right: -100vw;
+    width: 100vw;
+    height: 100vh;
+    flex-direction:
+      column;
+    background-color: white;
+    padding-top: 80px;
+
+  }
+
+  .navbar {
+    display: block;
+    padding: 0;
+  }
+
+
+
+  .navbar ul li a {
+    color: black;
+  }
+
+  .navbar ul img {
+    display: block;
+    width: 111px;
+    position: absolute;
+    top: 32px;
+    left: 8vw;
+
+  }
+
+  .navbar ul li {
+    margin-top: 45px;
+  }
+
+  .bar {
+    font-size: 1.5rem;
+    visibility: visible;
+    position: absolute;
+    right: 36px;
+    top: 14px;
+  }
+
+  .flite {
+    right: 0px;
+  }
+
+  .logo {
+    width: 180px;
+  }
+
+  .main {
+    height: 60vh;
+  }
+
+  .lvl {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 94vw;
+  }
+
+  .tap {
+    overflow-y: hidden;
+  }
+
+  .line1 {
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    right: 18px;
+    top: 26px;
+    transform: rotate(-44deg);
+  }
+
+  .line2 {
+    transform: rotate(-138deg);
+
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    right: 17px;
+    top: 26px;
+
+  }
+
+  .navup {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    cursor: pointer;
+  }
+
+  .z-img {
+    justify-content: center;
+  }
+
+  .mid-part {
+    flex-wrap: wrap;
+    margin-top: 2vh;
+  }
+
+  .mid-part img {
+    width: 40vw;
+  }
+
+  .box2 {
+    margin-left: 5px
+  }
+
+  .box3 {
+    margin-top: 18px;
+  }
+
+  .bear {
+    display: block;
+    color: black;
+    text-align: center;
+    margin-top: 9vh;
+  }
+
+  .box-content h3 {
+    font-size: 0.9rem;
+  }
+
+  .box-content p {
+    font-size: 0.65rem;
+  }
+
+  .box-content {
+    width: 40vw;
+    height: 8vh;
+  }
+
+  .second p {
+    margin-left: 25px;
+  }
+
+  .third p {
+    margin-right: 27px;
+  }
+
+  .lilly {
+    display: none;
+  }
+
+  .main-image {
+    margin-top: 2vh;
+  }
+
+  .main-image .rose {
+    display: block;
+    width: 400px;
+    margin-left: 15px;
+  }
+
+  .main-con {
+    margin-left: 0px;
+  }
+
+  .main-con h2 {
+    margin-left: 35px;
+    font-size: 1.6rem;
+  }
+
+  .main-con p {
+    font-size: 0.80rem;
+    margin-left: 37px;
+    width: 75vw
+  }
+
+  .top {
+    font-size: 0.70rem;
+  }
+
+  .cup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  .a {
+    margin-top: 20px;
+  }
+
+  .item3 {
+    box-shadow: 0px 0px 4px gray;
+    width: 260px;
+    margin-right: 20px;
+    padding-left: 25px;
+  }
+
+  .imgg {
+    display: none;
+  }
+
+  .call h2 {
+    font-size: 2.2rem;
+  }
+
+  .call {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  .box3 {
+    margin-right: 220px;
+  }
+.search{
+  position: relative;
+}
+.one{
+  position: absolute;
+  top: 9vh;
+left: -39vw;
+border-radius: 0;
+height: 50px;
+border-top-left-radius: 11px;
+border-bottom-left-radius: 11px;
+width: 42px;
+}
+.two{
+  position: absolute;
+  left: -39vw;
+  height: 50px;
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+  width: 42px;
+}
+.inp1{
+  position: absolute;
+  right: -41vw;
+  width:71vw ;
+  padding-left: 15px;
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+.inp2{
+  position: absolute;
+  top: 9vh;
+ right: -41vw;
+  width: 71vw;
+  padding-left: 15px;
+}
+.mid-part img{
+  margin-right: 0;
+}
+.box1 img{
+  margin-right: 30px;
+}
+.box3{
+  margin-right: 180px;
+}
+.main-image{
+  display: flex;
+  justify-content: center;
+}
+.main-image .rose{
+  width: 332px;
+margin: 0;
+}
+.fourth-part h2{
+  margin: 0;
+}
+.item3{
+  padding: 0;
+  padding-top: 17px;
+}
+.item3{
+  justify-content: center;
+  
+}
+.b{padding:20px;}
+.auto-type{ font-size:1.3rem;}
+}
+.sixth-part{
+  min-height: 25vh;
+  
+}
+.item3{
+  padding-left: 3vw;
+}
